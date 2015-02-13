@@ -80,18 +80,6 @@ public:
 		return currentLine;
 	}
     
-    void report()
-    {
-        if ( currentTokens.size() > 0 )
-        {
-            for ( int i = 0; i < currentTokens.size(); i++)
-            {
-                cout << currentTokens[i]<<"/";
-            }
-            cout << endl;
-        }
-    }
-
 	int getCurrentTokenSize() const
 	{
 		return currentTokens.size();

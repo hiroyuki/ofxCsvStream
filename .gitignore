@@ -1,5 +1,6 @@
 *.app
 *.o
+exampleWrite/bin/data/awesome.csv
 *.DS_Store
 example/.DS_Store
 *.sdf
