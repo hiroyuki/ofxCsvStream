@@ -5,6 +5,7 @@ by
 horristic (Hiroyuki Hori)
 */
 using namespace std;
+#include "ofMain.h"
 
 class ofxCsvStream
 {
@@ -79,7 +80,7 @@ public:
         parse();
 		return currentLine;
 	}
-    
+
 	int getCurrentTokenSize() const
 	{
 		return currentTokens.size();
